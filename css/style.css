@@ -18,42 +18,42 @@ body{
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
-    line-height: 0;
+    line-height: 1.38;
     letter-spacing: 0.78px;
 }
 .studio-header{
-color: var(--logo-color2);
+color: var(--logo-color);
 font-size: 14px;
 font-weight: 500;
-line-height:0;
+line-height: 1.14;
 letter-spacing: 0.28px;
 }
 .portfolio-header{
 color:var(--logo-color);
 font-size: 14px;
 font-weight: 500;
-line-height: 0;
+line-height: 1.14;
 letter-spacing: 0.28px;
 }
 .contact-header{
 color:var(--logo-color);
 font-size: 14px;
 font-weight: 500;
-line-height: 0;
+line-height: 1.14;
 letter-spacing: 0.28px;
 }
 .email-header{
-color:var(--logo-color2);
+color:var(--paragraf-color);
 font-size: 14px;
 font-weight: 500;
-line-height: 0;
+line-height: 1.14;
 letter-spacing: 0.28px;
 }
 .tel-header{
 color:var(--paragraf-color);
 font-size: 14px;
 font-weight: 500;
-line-height:0;
+line-height: 1.14;
 letter-spacing: 0.28px;
 }
 .title-hero{
@@ -69,7 +69,7 @@ letter-spacing: 0.28px;
 color:var(--text-color);
 font-size: 14px;
 font-weight: 700;
-line-height:0;
+line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
@@ -85,7 +85,7 @@ letter-spacing: 0.42px;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 0;
+    line-height: 1.16;
     letter-spacing: 1.08px; 
 }
 .subtitle-command{
@@ -93,14 +93,14 @@ color:var(--text-color);
 text-align: center;
 font-size: 36px;
 font-weight: 700;
-line-height:0;
+line-height: 1.16;
 letter-spacing: 1.08px;
 }
 .name-command{
 color: var(--text-color);
 text-align: center;
 font-size: 16px;
-line-height:0;
+line-height: 1.18;
 font-weight: 500;
 letter-spacing: 0.48px;
 }
@@ -109,7 +109,7 @@ color:var(--paragraf-color);
 text-align: center;
 font-size: 16px;
 font-weight: 400;
-line-height: 0;
+line-height: 1.18;
 letter-spacing: 0.48px;
 }
 .logo-footer{
@@ -117,7 +117,7 @@ color:var(--main-color);
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
-line-height: 0;
+line-height: 1.38;
 letter-spacing: 0.78px;
 }
 .address-footer{
@@ -161,7 +161,7 @@ letter-spacing: 0.48px;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
-    line-height: 0;
+    line-height: 1.38;
     letter-spacing: 0.78px;
 }
 .studio-header:hover,
@@ -194,4 +194,27 @@ font-size: 16px;
 font-weight: 700;
 line-height: 1.87; /* 187.5% */
 letter-spacing: 0.96px;
+}
+.button-portfolio{
+    border-radius: 4px;
+    background:var(--main-color2);
+    color:var(--text-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62; /* 162.5% */
+    letter-spacing: 0.48px; 
+}
+.button-portfolio:hover,
+.button-portfolio:focus{
+border-radius: 4px;
+background:var(--logo-color2);
+/* shadow-middle */
+box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+color:var(--main-color);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.62; /* 162.5% */
+letter-spacing: 0.48px;
 }
